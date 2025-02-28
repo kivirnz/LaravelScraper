@@ -23,18 +23,14 @@ urllib3\
 sys\
 socket\
 bs4\
-contextlib\
-
-**You can install all of the dependencies by cloning the repository and running: ```pip install -r requirements.txt```
+contextlib
 
 ## Usage
-Run normally: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE```\
-Add results to SQLite database: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -d database.sql```\
-Send results to telegram: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -t YOUR_BOT_TOKEN YOUR_CHAT_ID -d database.sql```\
-
-Output the results to a file called output.txt: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -o output.txt```\
-
-Scroll through pages of Shodan results to page 13: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -p 13```\
+Run normally: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE```
+Add results to SQLite database: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -d database.sql```
+Send results to telegram: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -t YOUR_BOT_TOKEN YOUR_CHAT_ID -d database.sql```
+Output the results to a file called output.txt: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -o output.txt```
+Scroll through pages of Shodan results to page 13: ```python laravelscraper.py -k YOUR_SHODAN_API_KEY_HERE -p 13```
 
 ## Arguments
 - ```-k``` or ```--api_key``` | This is required. This is where you put your Shodan API key.
